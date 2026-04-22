@@ -1,0 +1,168 @@
+{
+  "project_name": "vIcelandAir Promotional Website",
+  "app_type": "marketing_site",
+  "theme": "dark",
+  "archetype": "Archetype 5: Jewel & Luxury (Cinematic, Moody, Premium Aviation)",
+  "design_philosophy": "Embrace the cold, atmospheric beauty of Iceland. Deep midnight blues, icy whites, and subtle aurora accents. The design should feel premium, spacious, and highly cinematic, avoiding typical gaming community clutter. Prioritize large typography, bento grids with glassmorphic cards, and high-impact negative space.",
+  "colors": {
+    "background": {
+      "base": "#030C1A",
+      "surface_glass": "rgba(255, 255, 255, 0.03)",
+      "surface_elevated": "rgba(255, 255, 255, 0.06)",
+      "overlay": "rgba(3, 12, 26, 0.6)"
+    },
+    "text": {
+      "primary": "#FFFFFF",
+      "secondary": "#A8B4C5",
+      "accent": "#50B4D8"
+    },
+    "brand": {
+      "navy": "#00205B",
+      "aurora_green": "#00D084",
+      "glacier_blue": "#50B4D8",
+      "ice_white": "#F4F7FA"
+    },
+    "border": {
+      "subtle": "rgba(255, 255, 255, 0.08)",
+      "focus": "rgba(80, 180, 216, 0.5)"
+    }
+  },
+  "typography": {
+    "fonts": {
+      "heading": "Outfit, sans-serif",
+      "body": "Manrope, sans-serif"
+    },
+    "rules": {
+      "h1": "text-5xl sm:text-6xl lg:text-7xl font-light tracking-tighter",
+      "h2": "text-3xl sm:text-4xl lg:text-5xl font-light tracking-tight",
+      "h3": "text-2xl sm:text-3xl font-medium tracking-tight",
+      "overline": "text-xs font-bold uppercase tracking-[0.2em] text-accent",
+      "body": "text-base lg:text-lg leading-relaxed text-secondary",
+      "link": "text-sm font-semibold tracking-wide hover:text-white transition-colors"
+    },
+    "import_instruction": "Add Google Fonts imports for Outfit (weights 300,400,500,700) and Manrope (weights 400,500,600) to the main CSS."
+  },
+  "spacing_and_layout": {
+    "grid_system": "Bento grid (Mode A) for the fleet showcase, utilizing asymmetric col-spans (e.g., col-span-8 and col-span-4).",
+    "container_padding": "px-6 md:px-12 lg:px-24",
+    "section_spacing": "py-24 md:py-32 lg:py-48",
+    "card_padding": "p-8 md:p-12",
+    "border_radius": "rounded-2xl md:rounded-3xl"
+  },
+  "components": {
+    "header": {
+      "style": "Crystal Glassmorphism",
+      "classes": "fixed top-0 w-full z-50 bg-[#030C1A]/60 backdrop-blur-xl border-b border-white/10"
+    },
+    "buttons": {
+      "primary": "bg-white text-[#030C1A] font-bold px-8 py-4 rounded-full hover:bg-gray-200 transition-all duration-300 transform hover:-translate-y-1 shadow-[0_0_20px_rgba(255,255,255,0.2)]",
+      "secondary": "bg-transparent text-white border border-white/20 font-semibold px-8 py-4 rounded-full hover:bg-white/5 hover:border-white/40 transition-all duration-300",
+      "vamsys_cta": "bg-brand-navy border border-accent/30 text-white font-bold px-8 py-4 rounded-full hover:border-accent shadow-[0_0_15px_rgba(80,180,216,0.3)] transition-all flex items-center gap-2"
+    },
+    "cards": {
+      "fleet_card": "relative overflow-hidden bg-white/[0.03] backdrop-blur-md border border-white/10 rounded-3xl group hover:bg-white/[0.05] transition-all duration-500",
+      "fleet_image": "w-full h-full object-cover opacity-60 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
+    },
+    "marquee": {
+      "style": "The 'Kinetic Texture' background text",
+      "classes": "text-8xl md:text-[10rem] font-black uppercase text-transparent bg-clip-text bg-gradient-to-b from-white/5 to-transparent whitespace-nowrap select-none"
+    }
+  },
+  "sections": [
+    {
+      "name": "Hero",
+      "layout": "Full viewport height (min-h-screen). Background image with heavy overlay. Content bottom-left aligned.",
+      "content": {
+        "overline": "VIRTUAL AIRLINE",
+        "title": "THE SPIRIT OF ICELAND, VIRTUALLY.",
+        "subtitle": "Connecting the world through MSFS & X-Plane via VAMSYS.",
+        "cta": "Join via VAMSYS"
+      },
+      "image_url": "https://images.pexels.com/photos/31661630/pexels-photo-31661630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "image_description": "Beautiful northern lights illuminating Reykjavík night sky. Apply bg-black/50 overlay.",
+      "effects": "Parallax scroll on background image if possible."
+    },
+    {
+      "name": "About Mission",
+      "layout": "Asymmetric split layout. Image offset, overlapping a text block.",
+      "content": {
+        "title": "BORN IN THE NORTH",
+        "description": "vIcelandAir brings the chill of the North Atlantic to your simulator. Whether you're flying the demanding approach into Keflavík or cruising the auroras en route to North America, we simulate the premium commercial and cargo operations of Iceland's flagship carrier."
+      },
+      "image_url": "https://images.pexels.com/photos/4338103/pexels-photo-4338103.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "image_description": "Severe landscape of glacier snout spreading to seacoast. Represents the atmospheric, cold environment."
+    },
+    {
+      "name": "Operations Showcase",
+      "layout": "Side-by-side or stacked bento grid cards contrasting Passenger and Cargo.",
+      "content": {
+        "commercial": {
+          "title": "PASSENGER",
+          "desc": "Connecting Europe and North America via our Keflavík hub."
+        },
+        "cargo": {
+          "title": "CARGO",
+          "desc": "Night ops and heavy freight across the Atlantic."
+        }
+      }
+    },
+    {
+      "name": "Fleet Grid",
+      "layout": "Bento Grid Mode A (Tetris grid). Wide gaps, mixing span sizes.",
+      "items": [
+        {
+          "type": "Boeing 757",
+          "role": "The Workhorse",
+          "image": "https://images.unsplash.com/photo-1740911299424-f9e1e91a920b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHwyfHxib2VpbmclMjBjb21tZXJjaWFsJTIwYWlycGxhbmV8ZW58MHx8fHwxNzc2ODc4MDE0fDA&ixlib=rb-4.1.0&q=85",
+          "span": "col-span-12 md:col-span-8 row-span-2"
+        },
+        {
+          "type": "Boeing 737 MAX",
+          "role": "Next-Gen Efficiency",
+          "image": "https://images.unsplash.com/photo-1718099439740-bee549d83d83?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHwzfHxib2VpbmclMjBjb21tZXJjaWFsJTIwYWlycGxhbmV8ZW58MHx8fHwxNzc2ODc4MDE0fDA&ixlib=rb-4.1.0&q=85",
+          "span": "col-span-12 md:col-span-4 row-span-1"
+        },
+        {
+          "type": "Boeing 767",
+          "role": "Heavy Cargo",
+          "image": "https://images.pexels.com/photos/20240513/pexels-photo-20240513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+          "span": "col-span-12 md:col-span-4 row-span-1"
+        }
+      ]
+    },
+    {
+      "name": "Sim Platforms Marquee",
+      "layout": "Full width marquee section bridging content.",
+      "content": "MSFS • X-PLANE • VATSIM • VAMSYS • ",
+      "style": "Use react-fast-marquee. Text styling: text-4xl font-light tracking-widest text-white/30"
+    },
+    {
+      "name": "Footer",
+      "layout": "Massive bottom padding (py-32). High contrast logo/type at the bottom.",
+      "content": {
+        "huge_text": "vICELANDAIR",
+        "disclaimer": "vIcelandAir is a virtual airline for flight simulation purposes only. We are not affiliated with the real-world Icelandair Group."
+      }
+    }
+  ],
+  "media": {
+    "images": {
+      "hero_aurora": "https://images.pexels.com/photos/31661630/pexels-photo-31661630.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "glacier_about": "https://images.pexels.com/photos/4338103/pexels-photo-4338103.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "fleet_757": "https://images.unsplash.com/photo-1740911299424-f9e1e91a920b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHwyfHxib2VpbmclMjBjb21tZXJjaWFsJTIwYWlycGxhbmV8ZW58MHx8fHwxNzc2ODc4MDE0fDA&ixlib=rb-4.1.0&q=85",
+      "fleet_737": "https://images.unsplash.com/photo-1718099439740-bee549d83d83?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHwzfHxib2VpbmclMjBjb21tZXJjaWFsJTIwYWlycGxhbmV8ZW58MHx8fHwxNzc2ODc4MDE0fDA&ixlib=rb-4.1.0&q=85",
+      "fleet_767": "https://images.pexels.com/photos/20240513/pexels-photo-20240513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    },
+    "icons": {
+      "library": "lucide-react",
+      "usage": "Use icons for Sim badges (e.g., Plane, Globe, Cloud, Wind) and external links (ExternalLink icon for VAMSYS)."
+    }
+  },
+  "testing": {
+    "data_testid_rules": "All interactive elements MUST have data-testid attributes (e.g., data-testid='hero-vamsys-cta', data-testid='nav-about-link')."
+  },
+  "technical_notes": {
+    "framework": "React (Vite) + Tailwind CSS + Framer Motion (optional, but highly recommended for entrance animations and bento card hover states)",
+    "styling": "Avoid using Shadcn cards. Use raw HTML div/section with the provided Tailwind classes to achieve the overlapping and asymmetric designs. Utilize glassmorphism effectively with 'backdrop-blur' classes."
+  }
+}
