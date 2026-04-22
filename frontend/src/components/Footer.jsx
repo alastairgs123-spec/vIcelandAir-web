@@ -31,7 +31,7 @@ export default function Footer() {
               <SocialLink
                 testid="social-discord"
                 label="Discord"
-                href="https://discord.com"
+                href="https://discord.gg/YayPTbdrey"
                 icon={<MessageCircle className="w-4 h-4" />}
               />
               <SocialLink
@@ -62,7 +62,7 @@ export default function Footer() {
             title="Pilots"
             links={[
               { label: "Join via VAMSYS", href: "https://vamsys.io/register" },
-              { label: "Discord", href: "https://discord.com" },
+              { label: "Discord", href: "https://discord.gg/YayPTbdrey" },
               { label: "Training Wiki", href: "#" },
               { label: "SimBrief", href: "https://simbrief.com" },
             ]}

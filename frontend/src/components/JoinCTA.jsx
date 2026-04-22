@@ -60,7 +60,7 @@ export default function JoinCTA() {
                 <ExternalLink className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
               </a>
               <a
-                href="https://discord.com"
+                href="https://discord.gg/YayPTbdrey"
                 target="_blank"
                 rel="noreferrer"
                 data-testid="join-discord-cta"
