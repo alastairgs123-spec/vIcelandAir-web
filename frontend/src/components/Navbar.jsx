@@ -34,14 +34,14 @@ export default function Navbar() {
           data-testid="nav-logo"
           className="flex items-center gap-3 group"
         >
-          <div className="w-9 h-9 rounded-full bg-gradient-to-br from-[#50B4D8] via-[#00D084] to-[#50B4D8] p-[1.5px]">
-            <div className="w-full h-full rounded-full bg-[#030C1A] flex items-center justify-center">
-              <span className="font-display font-bold text-sm tracking-tight text-white">
-                vI
-              </span>
-            </div>
+          <div className="h-11 px-3 rounded-full bg-white flex items-center justify-center shadow-[0_0_20px_rgba(80,180,216,0.15)]">
+            <img
+              src="https://customer-assets.emergentagent.com/job_skylines-hub/artifacts/y50xzq7f_vIce.png"
+              alt="vIcelandAir"
+              className="h-8 w-auto object-contain"
+            />
           </div>
-          <div className="flex flex-col leading-none">
+          <div className="hidden sm:flex flex-col leading-none">
             <span className="font-display text-lg font-medium tracking-tight">
               vIcelandAir
             </span>

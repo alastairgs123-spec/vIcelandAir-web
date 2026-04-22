@@ -9,13 +9,13 @@ export default function Footer() {
       <div className="max-w-[1400px] mx-auto px-6 md:px-10 lg:px-16">
         <div className="grid grid-cols-12 gap-10 md:gap-16">
           <div className="col-span-12 md:col-span-5">
-            <div className="flex items-center gap-3 mb-5">
-              <div className="w-9 h-9 rounded-full bg-gradient-to-br from-[#50B4D8] via-[#00D084] to-[#50B4D8] p-[1.5px]">
-                <div className="w-full h-full rounded-full bg-[#030C1A] flex items-center justify-center">
-                  <span className="font-display font-bold text-sm text-white">
-                    vI
-                  </span>
-                </div>
+            <div className="flex items-center gap-4 mb-6">
+              <div className="h-14 px-4 rounded-2xl bg-white flex items-center justify-center">
+                <img
+                  src="https://customer-assets.emergentagent.com/job_skylines-hub/artifacts/y50xzq7f_vIce.png"
+                  alt="vIcelandAir"
+                  className="h-10 w-auto object-contain"
+                />
               </div>
               <span className="font-display text-xl font-medium">
                 vIcelandAir

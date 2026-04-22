@@ -49,7 +49,7 @@ export default function Hero() {
           >
             The spirit of
             <br />
-            <span className="italic font-light bg-gradient-to-r from-[#50B4D8] via-[#00D084] to-[#50B4D8] bg-clip-text text-transparent">
+            <span className="italic font-light bg-gradient-to-r from-[#50B4D8] via-[#00D084] to-[#50B4D8] bg-clip-text text-transparent inline-block pr-2">
               Iceland
             </span>
             , virtually.
