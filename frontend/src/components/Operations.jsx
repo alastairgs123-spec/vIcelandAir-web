@@ -36,7 +36,7 @@ export default function Operations() {
             icon={<Users className="w-5 h-5" />}
             title="Passenger"
             tagline="Connecting Europe and North America."
-            desc="Daily long-haul rotations out of Keflavík, seasonal leisure flights, and short-hop domestic legs. Fly the 757, 737 MAX, or our long-range Dash for the regional fleet."
+            desc="Daily long-haul rotations out of Keflavík, seasonal leisure flights, and short-hop regional legs. Fly the 757-200, 767-300ER, A321neo LR, or either MAX variant depending on the route."
             metrics={[
               { v: "31", l: "Commercial routes" },
               { v: "BIKF", l: "Primary hub" },
