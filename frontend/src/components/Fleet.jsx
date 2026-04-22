@@ -5,7 +5,7 @@ const fleet = [
     role: "Long-Haul Workhorse",
     range: "7,200 km",
     image:
-      "https://images.unsplash.com/photo-1740911299424-f9e1e91a920b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHwyfHxib2VpbmclMjBjb21tZXJjaWFsJTIwYWlycGxhbmV8ZW58MHx8fHwxNzc2ODc4MDE0fDA&ixlib=rb-4.1.0&q=85",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Icelandair_Boeing_757-200_TF-FIN_Logan_International_Airport.jpg?width=1800",
     span: "col-span-12 md:col-span-8 md:row-span-2",
     size: "large",
   },
@@ -15,7 +15,7 @@ const fleet = [
     role: "Long-Range Narrowbody",
     range: "7,400 km",
     image:
-      "https://images.pexels.com/photos/46148/aircraft-jet-landing-cloud-46148.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Airbus_A321-271NXLR_(c-n_12213,_TF-IAA)_2025-10-22_Andre_Gerwing_Collection_ID_027038.jpg?width=1400",
     span: "col-span-12 md:col-span-4",
     size: "med",
   },
@@ -25,7 +25,7 @@ const fleet = [
     role: "Transatlantic Premium",
     range: "11,065 km",
     image:
-      "https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Icelandair_Boeing_767-300ER_(TF-ISO)_at_Frankfurt_Airport.jpg?width=1400",
     span: "col-span-12 md:col-span-4",
     size: "med",
   },
@@ -35,7 +35,7 @@ const fleet = [
     role: "Next-Gen Efficiency",
     range: "6,570 km",
     image:
-      "https://images.unsplash.com/photo-1718099439740-bee549d83d83?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHwzfHxib2VpbmclMjBjb21tZXJjaWFsJTIwYWlycGxhbmV8ZW58MHx8fHwxNzc2ODc4MDE0fDA&ixlib=rb-4.1.0&q=85",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Icelandair_Boeing_737-8_MAX_TF-ICS_ZRH_2025_01.jpg?width=1400",
     span: "col-span-12 md:col-span-4",
     size: "med",
   },
@@ -45,7 +45,7 @@ const fleet = [
     role: "Stretched Efficiency",
     range: "6,570 km",
     image:
-      "https://images.pexels.com/photos/912050/pexels-photo-912050.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/Icelandair_TF-ICB_Boeing_737-MAX_9_Stockholm-Arlanda_Airport_(ARN_ESSA)_(52712352660).jpg?width=1400",
     span: "col-span-12 md:col-span-4",
     size: "med",
   },
@@ -56,7 +56,7 @@ const fleet = [
     range: "6,025 km",
     payload: "54 t",
     image:
-      "https://images.pexels.com/photos/20240513/pexels-photo-20240513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=900&w=1200",
+      "https://commons.wikimedia.org/wiki/Special:FilePath/TF-ISH_JFK_Taxiing_In_FI_B767_304_ER_BCF_Small_(52700559960).png?width=1400",
     span: "col-span-12 md:col-span-4",
     size: "med",
     tag: "CARGO",

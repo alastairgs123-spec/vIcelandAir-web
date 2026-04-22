@@ -41,7 +41,7 @@ export default function Operations() {
               { v: "31", l: "Commercial routes" },
               { v: "BIKF", l: "Primary hub" },
             ]}
-            image="https://images.unsplash.com/photo-1740911299424-f9e1e91a920b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNTl8MHwxfHNlYXJjaHwyfHxib2VpbmclMjBjb21tZXJjaWFsJTIwYWlycGxhbmV8ZW58MHx8fHwxNzc2ODc4MDE0fDA&ixlib=rb-4.1.0&q=85"
+            image="https://commons.wikimedia.org/wiki/Special:FilePath/Icelandair_Boeing_757-200_TF-FIN_Logan_International_Airport.jpg?width=1600"
           />
           <OpsCard
             testid="ops-cargo"
@@ -54,7 +54,7 @@ export default function Operations() {
               { v: "11", l: "Freight routes" },
               { v: "B767F", l: "Primary fleet" },
             ]}
-            image="https://images.pexels.com/photos/20240513/pexels-photo-20240513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            image="https://commons.wikimedia.org/wiki/Special:FilePath/TF-ISH_JFK_Taxiing_In_FI_B767_304_ER_BCF_Small_(52700559960).png?width=1600"
           />
         </div>
       </div>
